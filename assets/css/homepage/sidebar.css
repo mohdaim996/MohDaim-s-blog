@@ -1,0 +1,27 @@
+.side-item {
+    position: relative;
+    width: 234px;
+    height: auto;
+    padding: 39px;
+}
+
+.sdi-top-dec {
+    left: 20%;
+}
+
+.sdi-bottom-dec {
+    top: 98.5%;
+    left: 65%;
+}
+
+
+
+.filter-title {
+
+    text-decoration: underline;
+}
+
+.filter-link:visited,
+.filter-link:link {
+    color: #000000;
+}

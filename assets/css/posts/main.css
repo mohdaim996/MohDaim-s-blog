@@ -1,0 +1,12 @@
+main{
+    display: flex;
+    flex-direction: column;
+    grid-area: main;
+    padding-left: 346px;
+    padding-right: 317px;
+}
+
+.post-img{
+    border-radius: 15px;
+    box-shadow: 0px 5px 17px 0px #00000040;
+}

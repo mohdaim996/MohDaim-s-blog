@@ -6,26 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="./index.css" rel="stylesheet">
+    <link href="./assets/css/homepage.css" rel="stylesheet">
     </link>
 </head>
 
 <body>
     <div id="content">
-        <div id="hero">
-            <div id="navbar">
+        <header id="hero">
+            <section id="navbar">
                 <div id="logo"></div>
-                <div id="nav-list">
-                    <div class="nav-item"><a href="#">Home</a></div>
-                    <div class="nav-item"><a href="#">About</a></div>
-                    <div class="nav-item"><a href="#">Contact</a></div>
-                </div>
-            </div>
-            <div id="hero-main">
+                <nav id="nav-list">
+                    <a class="nav-item" href="#main">Home</a>
+                    <a class="nav-item" href="#">About</a>
+                    <a class="nav-item" href="#">Contact</a>
+                </nav>
+            </section>
+            <section>
+            <section id="hero-main">
                 <span class="hero-headline" id="title">MohDaim's Blog</span>
-                <span class="hero-headline" id="subtitle">Envision innovative applications</span>
-
-            </div>
+                <span class="hero-headline" id="subtitle">Man of Few Words</span>
+            </section>
             <div id="line-cont">
                 <svg width="558" height="54" viewBox="0 0 558 54" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path id="fline"
@@ -42,12 +42,159 @@
                         fill="white" />
                 </svg>
             </div>
-        </div>
-        <div class="comp" id="main">
-            
-        </div>
-        <div class="comp" id="sidebar"></div>
-        <div class="comp" id="footer"></div>
+        </section>
+        </header>
+        <main class="comp" id="main">
+            <div class="card">
+                <div class="decoration">
+                    <div class="circle" id="c1"></div>
+                    <div class="circle" id="c2"></div>
+                    <div class="circle" id="c3"></div>
+                </div>
+                <div class="card-content">
+                    <div class="post-head">
+                        <div class="post-title-cont">
+
+                            <span class="post-title">Near-death Experience</span>
+
+                        </div>
+                        <div class="post-date">02/10/2022</div>
+                    </div>
+                    <div class="post-body">
+                        <div class="post-img" id="post-1"></div>
+                        <button class="post-action" onclick="location.href='posts/p-001.html'">Read More...</button>
+                    </div>
+
+                    <div class="post-meta">
+                        <div class="tags">
+                            <div class="tag">Life and Death</div>
+                            <div class="tag">Story</div>
+                        </div>
+                        <div class="post-author"><a href="#">Mohammed Abduldaim</a></div>
+                    </div>
+                    <div class="bottom-decoration"></div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="decoration">
+                    <div class="circle" id="c1"></div>
+                    <div class="circle" id="c2"></div>
+                    <div class="circle" id="c3"></div>
+                </div>
+                <div class="card-content">
+                    <div class="post-head">
+                        <div class="post-title-cont">
+
+                            <span class="post-title">World to Heal</span>
+
+                        </div>
+                        <div class="post-date">02/09/2022</div>
+                    </div>
+                    <div class="post-body">
+                        <div class="post-img" id="post-2"></div>
+                        <button class="post-action">Read More...</button>
+                    </div>
+
+                    <div class="post-meta">
+                        <div class="tags">
+                            <div class="tag">Food</div>
+                            <div class="tag">Story</div>
+                        </div>
+                        <div class="post-author"><a href="#">Mohammed Abduldaim</a></div>
+                    </div>
+                    <div class="bottom-decoration"></div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="decoration">
+                    <div class="circle" id="c1"></div>
+                    <div class="circle" id="c2"></div>
+                    <div class="circle" id="c3"></div>
+                </div>
+                <div class="card-content">
+                    <div class="post-head">
+                        <div class="post-title-cont">
+
+                            <span class="post-title">Gear for a Memorable occasion</span>
+
+                        </div>
+                        <div class="post-date">02/08/2022</div>
+                    </div>
+                    <div class="post-body">
+                        <div class="post-img" id="post-3"></div>
+                        <button class="post-action">Read More...</button>
+                    </div>
+
+                    <div class="post-meta">
+                        <div class="tags">
+                            <div class="tag">Merch</div>
+                            <div class="tag">Cowboy</div>
+                        </div>
+                        <div class="post-author"><a href="#">Mohammed Abduldaim</a></div>
+                    </div>
+                    <div class="bottom-decoration"></div>
+                </div>
+            </div>
+        </main>
+        <aside class="comp" id="sidebar">
+            <section class="card side-item" id="side-filter">
+                <div class="decoration sdi-top-dec" id="">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+                <main id="filter-content">
+                    <section class="filter">
+                        <span class="filter-title">Tags</span>
+                        <ul>
+                            <a class="filter-link" href="#">
+                                <li>Life and Death</li>
+                            </a>
+                            <a class="filter-link" href="#">
+                                <li>Story</li>
+                            </a>
+                            <a class="filter-link" href="#">
+                                <li>Food</li>
+                            </a>
+                            <a class="filter-link" href="#">
+                                <li>Cowboy</li>
+                            </a>
+                            <a class="filter-link" href="#">
+                                <li>Merch</li>
+                            </a>
+                        </ul>
+
+                    </section>
+                    <section class="filter">
+                        <span class="filter-title">Archive</span>
+                        <ul>
+                            <a class="filter-link" href="#">
+                                <li>July</li>
+                            </a>
+                            <a class="filter-link" href="#">
+                                <li>August</li>
+                            </a>
+                            <a class="filter-link" href="#">
+                                <li>September</li>
+                            </a>
+                    </section>
+
+                </main>
+
+                <div class="decoration sdi-bottom-dec">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </section>
+        </aside>
+        <footer class="comp" id="footer">
+            <section id="socials">
+                <img class="social-icon" id="li" src="assets/img/lin.png">
+                <img class="social-icon" id="gh" src="assets/img/gh.png">
+            </section>
+            <span id="footer-rights">© Mohammed Abduldaim</span>
+        </footer>
     </div>
 </body>
 

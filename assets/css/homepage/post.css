@@ -1,0 +1,157 @@
+.card {
+
+    position: relative;
+    width: 450px;
+    border-color: #d2d6db82;
+    border-width: thin;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 12px 12px 15px -7px #00000040;
+    height: 365px;
+}
+.decoration {
+    position: absolute;
+    display: flex;
+    top: -6px;
+    left: 195px;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.circle {
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-color: #d2d6db82;
+    border-width: thin;
+    border-style: solid;
+    border-radius: 100%;
+}
+
+
+#post-1 {
+    background: url("../../img/post-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#post-2 {
+    background: url("../../img/post-2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#post-3 {
+    background: url("../../img/post-3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.post-img {
+    width: 209px;
+    height: 205px;
+    box-shadow: 0px 5px 17px 0px #00000040;
+    border-color: #d2d6db82;
+    border-width: thin;
+    border-style: solid;
+    border-radius: 13px;
+}
+
+.post-action {
+    position: absolute;
+    border-radius: 5px;
+    border-width: 0.2px;
+    border-color: #a9a1a1;
+    background-color: white;
+    bottom: -29px;
+    left: 0;
+}
+.post-meta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tags {
+    display: flex;
+    gap: 15px;
+}
+
+.tag {
+    font-family: "Tajawal";
+    background-color: #e91e63;
+    color: white;
+    border-radius: 33px;
+    padding: 5px;
+    padding-top: 2.5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-color: #d2d6db82;
+    border-width: thin;
+    border-style: solid;
+    box-shadow: 1px 2px 3px 0px #00000040;
+}
+
+.post-author {
+    background-color: #0094FF;
+    color: white;
+    border-radius: 33px;
+    padding-top: 2.5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-color: #d2d6db82;
+    border-width: thin;
+    border-style: solid;
+    line-height: 24px;
+    box-shadow: 1px 2px 3px 0px #00000040;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    padding-left: 9px;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    padding-right: 9px;
+    justify-content: flex-start;
+}
+
+.post-title-cont {
+    position: relative;
+}
+
+.post-title {
+    position: absolute;
+    font-family: 'Tahoma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: x-large;
+    color: #323131;
+    background-color: white;
+}
+
+
+.post-body {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.post-date {
+    position: absolute;
+    right: 6px;
+    font-family: 'Tahoma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+
+    color: #000000;
+
+    opacity: 0.5;
+}

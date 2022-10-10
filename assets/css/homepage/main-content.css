@@ -1,0 +1,10 @@
+#main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(auto, 1fr));
+    grid-auto-rows: auto;
+    gap: 72px;
+    margin: auto;
+}
+
+

@@ -1,38 +1,24 @@
-html,
-body {
-    margin: 0;
-    padding: 0;
-}
-
-#content {
-    display: grid;
-    grid-template-columns: 15% 1fr 15%;
-    grid-template-rows: 1fr 1fr 100%;
-    grid-template-areas:
-        "hero hero hero"
-        "main main sb"
-        "footer footer  footer";
-}
-
 #hero {
     grid-area: hero;
     background-color: #0094FF;
     display: flex;
     flex-direction: column;
     width: 100%;
-    border-bottom: 10px solid #323131;
+    border-bottom: 1px solid #a9a1a1;
+    box-shadow: 0px 5px 17px 0px #00000040;
+    justify-content: flex-start;
+    row-gap: 165px;
 }
-
-
 #logo {
-    background-image: url("./logo.svg");
+    background-image: url("../../img/logo.svg");
     width: 120px;
     height: 51px;
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 1vw;
+    margin-left: 5vh;
 
 }
+
 
 #navbar {
     display: flex;
@@ -85,11 +71,7 @@ a:visited {
     flex-direction: column;
     align-items: center;
     justify-items: center;
-    flex: none;
-    flex-grow: 1;
-    margin-top: 100px;
 }
-
 .hero-headline {
     font-family: 'Tajawal';
 }
@@ -111,10 +93,4 @@ a:visited {
     flex-direction: column;
     align-items: center;
     margin-bottom: 100px;
-}
-
-#main{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);;
-    grid-auto-rows: 254px;
 }
