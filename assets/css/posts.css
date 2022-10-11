@@ -1,7 +1,11 @@
 @import "shared/layout.css";
+@import "posts/layout.css";
 @import "shared/hero.css";
+
 @import "posts/main.css";
-@import "homepage/main-content.css";
-@import "homepage/sidebar.css";
+@import "shared/tags.css";
+@import "posts/sidebar.css";
+@import "shared/card-container.css";
+@import "shared/sidebar.css";
 @import "shared/footer.css";
 

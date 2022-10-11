@@ -1,0 +1,24 @@
+#about-author-content{
+    display: flex;
+    flex-direction: column;
+}
+.post-author {
+    right: 6px;
+    font-family: 'Tahoma';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+}
+.post-date {
+    right: 6px;
+    font-family: 'Tahoma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+
+    color: #000000;
+
+    opacity: 0.5;
+}

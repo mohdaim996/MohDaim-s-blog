@@ -25,3 +25,8 @@
 .filter-link:link {
     color: #000000;
 }
+
+.clear{
+    display: none;
+    float: right;
+}

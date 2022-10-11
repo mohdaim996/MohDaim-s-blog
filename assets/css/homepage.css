@@ -1,9 +1,12 @@
 @import "shared/layout.css";
 @import "shared/hero.css";
+@import "shared/card-container.css";
+@import "shared/tags.css";
 @import "homepage/post.css";
 @import "homepage/main-content.css";
-@import "homepage/sidebar.css";
+@import "shared/sidebar.css";
 @import "shared/footer.css";
+
 
 
 

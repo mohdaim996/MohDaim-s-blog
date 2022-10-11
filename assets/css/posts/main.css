@@ -1,4 +1,4 @@
-main{
+main {
     display: flex;
     flex-direction: column;
     grid-area: main;
@@ -6,7 +6,15 @@ main{
     padding-right: 317px;
 }
 
-.post-img{
+.post-img {
+    background-image: url("../../img/post-1.png");
     border-radius: 15px;
     box-shadow: 0px 5px 17px 0px #00000040;
+    width: 750px;
+    height: 750px;
+}
+
+p, blockquote{
+    font-family: "Arial";
+    font-size: large;
 }

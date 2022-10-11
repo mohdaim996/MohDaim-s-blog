@@ -145,38 +145,42 @@
                 </div>
                 <main id="filter-content">
                     <section class="filter">
+                        <span class="clear" ><a class="filter-link" href="javascript:removeFilter()">clear</a></span>
                         <span class="filter-title">Tags</span>
                         <ul>
-                            <a class="filter-link" href="#">
+                            <a class="filter-link" href="javascript:filterPostsByTag('Life and Death')">
                                 <li>Life and Death</li>
                             </a>
-                            <a class="filter-link" href="#">
+                            <a class="filter-link" href="javascript:filterPostsByTag('Story')">
                                 <li>Story</li>
                             </a>
-                            <a class="filter-link" href="#">
+                            <a class="filter-link" href="javascript:filterPostsByTag('Food')">
                                 <li>Food</li>
                             </a>
-                            <a class="filter-link" href="#">
+                            <a class="filter-link" href="javascript:filterPostsByTag('Cowboy')">
                                 <li>Cowboy</li>
                             </a>
-                            <a class="filter-link" href="#">
+                            <a class="filter-link" href="javascript:filterPostsByTag('Merch')">
                                 <li>Merch</li>
                             </a>
                         </ul>
+
 
                     </section>
                     <section class="filter">
                         <span class="filter-title">Archive</span>
                         <ul>
-                            <a class="filter-link" href="#">
-                                <li>July</li>
-                            </a>
-                            <a class="filter-link" href="#">
+                            <a class="filter-link" href="javascript:filterPostsByDate('08')">
                                 <li>August</li>
                             </a>
-                            <a class="filter-link" href="#">
+                            <a class="filter-link" href="javascript:filterPostsByDate('09')">
                                 <li>September</li>
                             </a>
+                            <a class="filter-link" href="javascript:filterPostsByDate('10')">
+                                <li>October</li>
+                            </a>
+                        </ul>
+                        
                     </section>
 
                 </main>
@@ -196,6 +200,7 @@
             <span id="footer-rights">© Mohammed Abduldaim</span>
         </footer>
     </div>
+    <script src="assets/js/filter.js"></script>
 </body>
 
 </html>
