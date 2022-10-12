@@ -1,7 +1,7 @@
-.card {
 
+.card {
     position: relative;
-    width: 450px;
+    width: 389px;
     border-color: #d2d6db82;
     border-width: thin;
     border-style: solid;
@@ -13,7 +13,7 @@
     position: absolute;
     display: flex;
     top: -6px;
-    left: 195px;
+    left: 159px;
     flex-direction: row;
     gap: 12px;
 }
@@ -26,4 +26,13 @@
     border-width: thin;
     border-style: solid;
     border-radius: 100%;
+}
+
+@media (min-width: 900px){
+    .card {
+        width: 450px;
+    }
+    .decoration{
+        left: 195px;
+    }
 }

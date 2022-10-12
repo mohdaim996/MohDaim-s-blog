@@ -30,13 +30,17 @@
 
 .post-action {
     position: absolute;
-    border-radius: 5px;
+    border-radius: 200px;
     border-width: 0.2px;
     border-color: #a9a1a1;
-    background-color: white;
-    bottom: -29px;
-    left: 0;
+    border-style: solid;
+    background-color: #f1f1f1;
+    bottom: -45px;
+    right: 132px;
+    padding: 8px;
+    width: 113px;
 }
+
 .post-meta {
     display: flex;
     flex-direction: row;
@@ -81,7 +85,6 @@
     font-weight: 400;
     font-size: x-large;
     color: #323131;
-    background-color: white;
 }
 
 
@@ -107,4 +110,11 @@
     color: #000000;
 
     opacity: 0.5;
+}
+
+@media (min-width: 900px){
+    .post-action {
+        right: 162px;
+    }
+    
 }

@@ -7,10 +7,23 @@ body {
 
 #content {
     display: grid;
-    grid-template-columns: 1fr 1fr 0.7fr;
-    grid-template-rows: 0.75fr 1fr 0.25fr;
-    grid-template-areas: "hero hero hero"
-        "main main sb"
-        "footer footer  footer";
-    row-gap: 216px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,auto);
+    row-gap: 51px;
+    justify-items: center;
 }
+
+
+@media (min-width: 900px) {
+    #content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 0.7fr;
+        grid-template-rows: 0.75fr 1fr 0.25fr;
+        grid-template-areas:
+            "hero hero hero"
+            "main main sb"
+            "footer footer footer";
+        row-gap: 216px;
+        justify-items: stretch;
+    }
+  }

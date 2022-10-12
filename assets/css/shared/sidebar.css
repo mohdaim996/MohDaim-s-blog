@@ -1,3 +1,6 @@
+#sidebar-pc{
+    display: none;
+}
 .side-item {
     position: relative;
     width: 234px;
@@ -14,8 +17,6 @@
     left: 65%;
 }
 
-
-
 .filter-title {
 
     text-decoration: underline;
@@ -26,7 +27,25 @@
     color: #000000;
 }
 
-.clear{
+.clear {
     display: none;
     float: right;
+}
+
+option, .filter-title{
+    font-size: x-large;
+    font-family: "Tahoma";
+}
+li{
+    font-family: "Tahoma";
+}
+
+@media (min-width: 900px) {
+    #sidebar-mobile {
+        display: none;
+    }
+
+    #sidebar-pc {
+        display: block;
+    }
 }
