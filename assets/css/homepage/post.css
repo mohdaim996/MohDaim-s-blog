@@ -112,7 +112,7 @@
     opacity: 0.5;
 }
 
-@media (min-width: 900px){
+@media (min-width: 1300px){
     .post-action {
         right: 162px;
     }

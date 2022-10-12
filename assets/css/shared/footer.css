@@ -31,7 +31,7 @@
     color: whitesmoke
 }
 
-@media (min-width: 900px){
+@media (min-width: 1300px){
     #footer{
     grid-area: 3/1/4/4;
 }

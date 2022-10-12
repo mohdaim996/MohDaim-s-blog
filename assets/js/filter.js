@@ -69,3 +69,5 @@ function removeFilter() {
         mainContainer.innerHTML += posts[i].outerHTML;
     }
 }
+
+

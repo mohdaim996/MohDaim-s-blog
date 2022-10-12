@@ -40,7 +40,7 @@ li{
     font-family: "Tahoma";
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1300px) {
     #sidebar-mobile {
         display: none;
     }

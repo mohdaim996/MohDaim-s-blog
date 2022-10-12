@@ -20,9 +20,17 @@
                     <a class="nav-item" href="#">About</a>
                     <a class="nav-item" href="#">Contact</a>
                 </nav>
-                <div id="burger-menu"></div>
+                <button id="burger-btn" onclick="showmenu()">
+                    <div id="burger-menu"></div>
+                </button>
             </section>
-
+            <div id="mobile-navmenu">
+                <nav id="mobile-navlist">
+                    <a class="mobile-navitem" href="">Home</a>
+                    <a class="mobile-navitem" href="#">About</a>
+                    <a class="mobile-navitem" href="#">Contact</a>
+                </nav>
+            </div>
 
 
             <section>
@@ -57,11 +65,11 @@
                 <option value="Cowboy">Cowboy</option>
                 <option value="Merch">Merch</option>
             </select>
-            <span id="date-drp">Archive: </span>
-            <select>
-                <option value="August">August</option>
-                <option value="September">September</option>
-                <option value="October">October</option>
+            <span>Archive: </span>
+            <select id="date-drp">
+                <option value="08">August</option>
+                <option value="09">September</option>
+                <option value="10">October</option>
             </select>
             <button class="clear" onclick="removeFilter()">X</button>
         </section>
@@ -223,6 +231,7 @@
         </footer>
     </div>
     <script src="assets/js/filter.js"></script>
+    <script src="assets/js/nav.js"></script>
 </body>
 
 </html>

@@ -1,20 +1,35 @@
 main {
     display: flex;
     flex-direction: column;
-    grid-area: main;
-    padding-left: 346px;
-    padding-right: 317px;
+    align-items: center;
 }
 
 .post-img {
     background-image: url("../../img/post-1.png");
     border-radius: 15px;
     box-shadow: 0px 5px 17px 0px #00000040;
-    width: 750px;
-    height: 750px;
+    width: 320px;
+    height: 310px;
+    background-size: contain;
 }
 
 p, blockquote{
     font-family: "Arial";
-    font-size: large;
+    font-size: x-large;
+}
+p{
+    padding-left:30px;
+    padding-right: 30px;
+}
+
+
+
+
+@media (min-width: 1300px){
+    main {
+        display: flex;
+        flex-direction: column;
+        padding-left: 346px;
+        padding-right: 317px;
+    }
 }
