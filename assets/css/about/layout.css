@@ -1,0 +1,8 @@
+#content{
+    grid-template-columns: 1fr;
+    grid-template-rows: auto ;
+}
+
+#footer{
+    height: 201.5px;
+}

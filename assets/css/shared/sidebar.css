@@ -1,11 +1,20 @@
-#sidebar-pc{
+#sidebar-pc {
     display: none;
 }
+
 .side-item {
     position: relative;
     width: 234px;
     height: auto;
     padding: 39px;
+}
+
+#sidebar-mobile {
+    display: flex;
+    flex-direction: row;
+    column-gap: 6px;
+    align-items: center;
+    justify-content: center;
 }
 
 .sdi-top-dec {
@@ -32,11 +41,24 @@
     float: right;
 }
 
-option, .filter-title{
+#clearbtn {
+    border-radius: 100%;
+    border-width: 0.2px;
+    border-color: #a9a1a1;
+    border-style: solid;
+    background-color: #f1f1f1;
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+}
+
+option,
+.filter-title {
     font-size: x-large;
     font-family: "Tahoma";
 }
-li{
+
+li {
     font-family: "Tahoma";
 }
 
@@ -47,5 +69,9 @@ li{
 
     #sidebar-pc {
         display: block;
+    }
+
+    aside {
+        grid-area: sb;
     }
 }

@@ -1,12 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/about.css" rel="stylesheet">
+    </link>
     <title>Document</title>
 </head>
-<body>
 
+<body>
+    <div id="content">
+        <header id="hero">
+            <section id="navbar">
+                <div id="logo"></div>
+                <nav id="nav-list">
+                    <a class="nav-item" href="index.html">Home</a>
+                    <a class="nav-item" href="">About</a>
+                    <a class="nav-item" href="contact.html">Contact</a>
+                </nav>
+                <button id="burger-btn" onclick="showmenu()">
+                    <div id="burger-menu"></div>
+                </button>
+            </section>
+            <div id="mobile-navmenu">
+                <nav id="mobile-navlist">
+                    <a class="mobile-navitem" href="index.html">Home</a>
+                    <a class="mobile-navitem" href="">About</a>
+                    <a class="mobile-navitem" href="contant.html">Contact</a>
+                </nav>
+            </div>
+
+
+            <section>
+                <section id="hero-main">
+                    <span class="hero-headline" id="title">MohDaim's Blog</span>
+                    <span class="hero-headline" id="subtitle">Man of Few Words</span>
+                </section>
+                <div id="line-cont">
+                    <svg width="558" height="54" viewBox="0 0 558 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id="fline"
+                            d="M0.500014 7.98521C0.491847 12.4035 4.06694 15.9918 8.48521 16C12.9035 16.0082 16.4918 12.4331 16.5 8.01479C16.5082 3.59652 12.9331 0.00818069 8.51479 1.38283e-05C4.09652 -0.00815303 0.508181 3.56694 0.500014 7.98521ZM541.5 8.98521C541.492 13.4035 545.067 16.9918 549.485 17C553.903 17.0082 557.492 13.4331 557.5 9.01479C557.508 4.59652 553.933 1.00818 549.515 1.00001C545.096 0.991847 541.508 4.56694 541.5 8.98521ZM8.49723 9.5L549.497 10.5L549.503 7.5L8.50277 6.5L8.49723 9.5Z"
+                            fill="white" />
+                        <path
+                            d="M240.5 41.7311C241.973 41.7311 243.167 40.5372 243.167 39.0645C243.167 37.5917 241.973 36.3978 240.5 36.3978C239.027 36.3978 237.833 37.5917 237.833 39.0645C237.833 40.5372 239.027 41.7311 240.5 41.7311ZM241 39.0645V8H240V39.0645H241Z"
+                            fill="white" />
+                        <path
+                            d="M250.5 53.6989C251.973 53.6989 253.167 52.505 253.167 51.0322C253.167 49.5595 251.973 48.3656 250.5 48.3656C249.027 48.3656 247.833 49.5595 247.833 51.0322C247.833 52.505 249.027 53.6989 250.5 53.6989ZM251 51.0322V8.03223H250V51.0322H251Z"
+                            fill="white" />
+                        <path
+                            d="M262.5 53.6667C263.973 53.6667 265.167 52.4728 265.167 51C265.167 49.5272 263.973 48.3333 262.5 48.3333C261.027 48.3333 259.833 49.5272 259.833 51C259.833 52.4728 261.027 53.6667 262.5 53.6667ZM263 51V8H262V51H263Z"
+                            fill="white" />
+                    </svg>
+                </div>
+            </section>
+        </header>
+        <main>
+            <h1>Mohammed Abduldaim</h1>
+            <h2>Software Engineer and Full-stack Developer</h2>
+            <p>I am a software engineer from Jeddah, Saudi Arabia
+                I have a passion for building innovative and creative
+                mobile and web solutions. </p>
+                
+        </main>
+        
+        <footer class="comp" id="footer">
+            <section id="socials">
+                <img class="social-icon" id="li" src="assets/img/lin.png">
+                <img class="social-icon" id="gh" src="assets/img/gh.png">
+            </section>
+            <span id="footer-rights">© Mohammed Abduldaim</span>
+        </footer>
+    </div>
+    <script src="../assets/js/nav.js"></script>
 </body>
+
 </html>

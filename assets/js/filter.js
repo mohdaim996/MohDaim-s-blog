@@ -17,8 +17,10 @@ filterhandler('date-drp', filterPostsByDate)
 
 // display the button for the remove filter option
 const showFilterAction = (state) => {
-    let filterActions = document.querySelector('.clear');
-    filterActions.style.display = state ? 'inline' : 'none';
+    let filterActions = [...document.querySelectorAll('.clear')];
+
+    filterActions.forEach((e)=>e.style.display = state ? 'inline' : 'none');
+    
 }
 
 

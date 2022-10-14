@@ -1,0 +1,15 @@
+#contacts {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+.contact-row {
+    display: flex;
+    flex-direction: row;
+    column-gap: 84px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+span{
+    font-family: "tahoma";
+}
