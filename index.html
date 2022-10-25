@@ -232,20 +232,24 @@
     </div>
     <script src="assets/js/filter.js"></script>
     <script src="assets/js/nav.js"></script>
-      <script>
+        <script>
+    const c = document.createElement('div');
+    c.style.position = 'fixed';
+    c.style.bottom = c.style.right = '5px'
+    c.style.width = "25%";
+    c.style.height = "50%";
     const b = document.createElement('button');
-    b.style.position = 'absolute';
+    b.style.position = 'fixed';
     b.style.bottom = b.style.right = '5px';
     b.appendChild(document.createTextNode('Chat'));
     const i = document.createElement('iframe');
     i.setAttribute("src", "http://localhost:3000?bot=expo_coffee_shop");
-    i.style.position = 'absolute';
     i.style.border = "none";
-    i.style.bottom = i.style.right = '5px';
-    i.style.width = "25%";
-    i.style.height = "50%";
-    b.addEventListener('click', () => { document.body.appendChild(i); b.style.display = "none"; })
-    document.body.appendChild(b)
+    i.style.width = "100%";
+    i.style.height = "100%";
+    b.addEventListener('click', () => { c.appendChild(i); b.style.display = "none"; })
+    c.appendChild(b);
+    document.body.appendChild(c)
   </script>
 </body>
 
